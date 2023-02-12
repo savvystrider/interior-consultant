@@ -24,3 +24,38 @@ img {
     border: 1px solid #fff;
     padding: .5rem;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.875rem 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5.375rem;
+}
+
+nav ul li:first-child {
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 22px;
+    color: #fff;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
