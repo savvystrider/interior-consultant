@@ -84,3 +84,7 @@ h1 {
     font-size: 1.125rem;
     line-height: 22px;
 }
+
+.arrow {
+    margin-left: .5em;
+}
