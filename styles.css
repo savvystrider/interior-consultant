@@ -5,9 +5,22 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #181719;
+    color: #fff;
 }
 
 img {
     display: block;
     max-width: 100%;
+}
+
+.logo {
+    font-family: "Crimson Pro", serif;
+    font-weight: 200;
+    font-size: 0.875rem;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: .5rem;
 }
