@@ -87,4 +87,77 @@ h1 {
 
 .arrow {
     margin-left: .5em;
+    cursor: pointer;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.text-container {
+    width: 30%;
+}
+
+.image-container {
+    width: 53%;
+}
+
+.card {
+    position: absolute;
+    right: 75px;
+    bottom: -100px;
+    width: 25.625rem;
+    height: 11.813rem;
+    background-color: #181719;
+    filter: drop-shadow(2px 2px 1px #fff);
+    padding: 1em;
+}
+
+.card img {
+    width: 5.313rem;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.card-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card-text h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: #fff;
+}
+
+.card-text p {
+    color: #828282;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 14px;
+}
+
+.card h1 {
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 30px;
+    margin: 2em auto;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 7em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #a9a9a9;
+    font-size: 0.875rem;
+    line-height: 17px;
 }
